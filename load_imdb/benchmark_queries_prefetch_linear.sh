@@ -3,7 +3,7 @@
 # PostgreSQL connection parameters
 DB_NAME="imdbload"
 # You may use your own username here
-DB_USER="qihan"
+DB_USER="imrkale1"
 DB_HOST="localhost"
 DB_PORT="5432"
 

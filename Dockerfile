@@ -32,12 +32,12 @@ RUN apt-get update && \
 ENV LANG=en_US.UTF-8 \
     LC_ALL=en_US.UTF-8
 
-RUN adduser --disabled-password --gecos "" qihan && \
-    echo 'qihan:123456' | chpasswd && \
-    usermod -aG sudo qihan
+RUN adduser --disabled-password --gecos "" imrkale1 && \
+    echo 'imrkale1:123456' | chpasswd && \
+    usermod -aG sudo imrkale1
 
 RUN printf '\n# enable bash completion if available\nif [ -f /etc/bash_completion ] && ! shopt -oq posix; then\n  . /etc/bash_completion\nfi\n' >> /etc/bash.bashrc
 
-USER qihan
+USER imrkale1
 
 CMD ["/bin/bash"]

@@ -17,7 +17,7 @@
 # Prepends column names to headerless IMDB CSVs.
 
 # Default CSV directory
-CSV_DIR=${1:-"/home/qihan/load_imdb/datasets/job"}
+CSV_DIR=${1:-"/home/imrkale1/load_imdb/datasets/job"}
 
 # Function to prepend a line to a file
 prepend_line() {
